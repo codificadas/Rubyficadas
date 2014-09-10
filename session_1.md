@@ -1,7 +1,7 @@
 Conociendo a Ruby
 ====
 
-En esta sesión se platica de como surgió Ruby, historia general, al igual de la principales características de este.
+En esta sesión se platica de como surgió Ruby, historia general, al igual de las principales características de este.
 
 Se pretende realizar la instalación Ruby para que en futuras sesiones se pueda utilizar sin problemas.
 
@@ -17,7 +17,7 @@ Finalmente la primera versión pública de Ruby fue el 21 de Diciembre de 1995.
 
 Características
 ---
-La características mas destacadas de Ruby son:
+Las características mas destacadas de Ruby son:
 
 - Es open source por que lo puedes encontrar gratis en la web.
 - Es un lenguaje interpretado.
@@ -32,5 +32,5 @@ Setup
 ---
 Para estas sesiones necesitamos instalar dos herramientas:
 
-- Ruby, [para tu comodida puedes usar esta guía](/install_ruby).
+- Ruby, [para tu comodidad puedes usar esta guía](/install_ruby.md).
 - El editor de texto de tu preferencia, nosotras usaremos [Sublime Text 2](http://www.sublimetext.com/).
