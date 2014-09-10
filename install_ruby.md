@@ -30,7 +30,7 @@ Si comienza con 10.3, tienes Panther.
 
 Opción 2.1: Mavericks
 
-Ir a [OS X RVM](http://es.railsbridge.org/installfest/osx_rvm?back=macintosh%23step2-1) **OJO el paso 4, 8 y 9 de ese enlace, no son necesarios estas sesiones**
+Ir a [OS X RVM](http://es.railsbridge.org/installfest/osx_rvm?back=macintosh%23step2-1) **OJO el paso 4 y 8 de ese enlace, no son necesarios para estas sesiones**
 
 Opción 2.2: Mountain Lion/Lion/Snow Leopard
 
