@@ -3,6 +3,7 @@ Los ingredientes para programar
 
 Esta sesión esta dedicada para platicar sobre los elementos esenciales para programar.
 
+
 Haz un programa en Ruby
 ---
 Antes de comenzar tienes que saber como hacer un programa.
@@ -18,13 +19,14 @@ Antes de comenzar tienes que saber como hacer un programa.
 
 Todos archivos que contengan código Ruby deben llevar como extensión **.rb** es super importante que siempre tengas en cuenta esto porque sino no podremos ejecutar nuestro programa.
 
-Igualmente recuerda que la computadora es super tonta y que sino la colocas en el directorio donde se encuentra tu archivo(dentro de la terminal/consola) nunca lo va encontrar, entonces recuerda siempre el comando **cd** (change directory - cambia de directorio) y pones la ruta de tu archivo.
+Igualmente recuerda que la computadora es super tonta y que sino la colocas en el directorio donde se encuentra tu archivo (dentro de la terminal/consola) nunca lo va encontrar, entonces recuerda siempre el comando **cd** (change directory - cambia de directorio) agregando la ruta de tu archivo.
 
 Numeros
 ---
 Te preguntaras que hace **puts**, 1+2 sabemos que es 3. Entonces **puts** simplemente imprime el resultado de la operación que le estamos indicando, es este caso es una simple suma. Mas adelante veras que puede servir para muchas otras cosas.
 
 **Aritmetica simple**
+
 Para realizar operaciones aritméticas simples en un programa usamos estos caracteres: +, -, *, /.
 
 Vamos a jugar un poco, escribe en tu programa:
@@ -42,6 +44,7 @@ Debes ver como resultado:
      5
      50
      4
+    
 
 **Tipos de números**
 
@@ -61,11 +64,11 @@ Debes ver como resultado
      50.0
      4.5
     
-Nota que el resultado de la division cuando lo escribimos sin decimales fue **4** pero cuando lo hicimos con decimales fue **4.5** aquí Ruby esta identificando entre enteros y flotantes (decimales).
+Nota que el resultado de la division cuando lo escribimos sin decimales fue **4** pero cuando lo hicimos con decimales fue **4.5**, aquí Ruby esta identificando entre enteros y flotantes (decimales).
 
 Conclusión si tu operación la estas realización con enteros el resultado sera entero y si la estas haciendo con flotantes el resultado sera flotante.
 
-**Pregunta existencial:** que pasa si sumo un entero con un flotante?
+**Pregunta existencial:** que pasa si sumo un entero con un flotante? Intentalo ;)
     
 
 Letras
@@ -82,10 +85,11 @@ Debes ver como resultado:
     
 Todo lo que queramos definir como texto en nuestro programa lo tenemos que escribir entre comillas, pueden ser simples (') o dobles (").
 
-En Ruby un grupo de letras le llamamos **String**.
+En Ruby un grupo de letras, pueden ser palabras u oraciones completas hasta parrafos, le llamamos **String**.
 
 **Aritmética con palabras**
-Así como podemos hacer aritmética con números lo podemos hacer con palabras (Strings) es decir podemos agregar palabras a nuestras palabras, vamos a intentar.
+
+Así como podemos hacer aritmética con números lo podemos hacer con palabras (Strings) es decir podemos agregar palabras a nuestras palabras o multiplicarlas, vamos a intentar.
 
 Escribe en tu programa:
 
@@ -105,7 +109,7 @@ La función del **+** es concatenar (unir) las dos palabras.
 
 Sin embargo hay otra forma mas practica de concatenar palabras, la grandiosa **interpolación**. Para usarla necesitamos esta se representa de esta forma: "En un año hay #{4*12} semanas". Todo lo que se encuentre dentro de los corchetes ({}) tiene que ser código que Ruby pueda entender.
 
-Escribe en tu programa:
+Por ejemplo, escribe en tu programa:
     
      puts "Un día tiene #{24*60} minutos"
 
@@ -128,7 +132,59 @@ Debes ver como resultado:
     
      Somos lo máximo! Somos lo máximo! Somos lo máximo!
     
-Padrísimo! Cuantos ciclos nos podemos ahorrar con esto, no? 
+Padrísimo! Cuantos ciclos nos podemos ahorrar con esto, no?
+
+*Ten en mente que para multiplicar palabras, la operacion debe de ir despues del String que quieres multiplicar, es decir no puedes hacer:*
+
+	puts 3 * "Somos lo máximo!"
+
+**Digitos y numeros**
+
+Antes de continuar debemos saber la diferencia entre digitos y numeros. **12** es un numero y **'12'** es un String de dos digitos.Vamos a jugar para ver las diferencias.
+
+Escribe en tu programa:
+	
+	puts  12  +  12
+	puts '12' + '12'
+	puts '12  +  12'
+
+Guarda y corre tu programa ejecutando: ruby elnombrequequieras.**rb**
+
+Debes ver como resultado:
+
+	24
+	1212
+	12  +  12
+	
+Estos ejemplos son muy sencillos, pero sino tienes cuidado de no mezclar numeros con Strings puedes llegar a tener problemas.
+
+Por ejemplo, escribe en tu programa:
+
+	puts '12' + 12
+
+Guarda y corre tu programa ejecutando: ruby elnombrequequieras.**rb**
+	
+Debes ver como resultado:
+
+	#<TypeError: no implicit conversion of Fixnum into String>
+	
+Error! Porque no puedes sumar un numero a un String.
+
+**Comillas**
+
+Otra pregunta existencial, que pasa si dentro de mi String quiero usar una comilla? Si estas son las que me ayudan a definir mi String. Para solucionar esto necesitamos escapar caracteres, como? Simplemente agregando una diagonal invertida antes de nuestro caractare.
+
+Por ejemplo, escribe en tu programa:
+
+	puts 'You\'re so sexy ;)'
+
+Guarda y corre tu programa ejecutando: ruby elnombrequequieras.**rb**
+	
+Debes ver como resultado:
+
+	you're so sexy
+	
+Lo mismo para las comillas dobles.
 
 
 
