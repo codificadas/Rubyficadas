@@ -190,6 +190,48 @@ Lo mismo para las comillas dobles.
 
 Símbolos
 ---
+Los símbolos son una cosa extraña que quizas y en un principio no les encuentres utilidad pero poco a poco veras para que sirve, mientras tanto solo nos interesa saber que existe y como funcionan.
+
+Son como un String pero inmutables, es decir durante la vida de tu programa nunca van a cambiar. Estos se guardan en un lugar especial de la memoria donde el garbage collector (el recolector de basura, encargado de limpiar las cosas que no estas utilizando en tu programa) no puede borrarlas.
+
+Vamos hacer una prueba para comprobar que son inmutables.
+
+Sobre tu terminal/consola escribre el comando: **irb** (este comando nos sirve para poner a nuestra terminal/consola) en modo Ruby, es decir que podemos escribir codigo Ruby y nos va a entender).
+
+Debes ver como resultado algo asi:
+
+	2.0.0-p481 :001 >
+	
+Ahora escribe:
+
+	:hola_rubyficadas
+
+Desbes ver como resultado: 
+
+	 => :hola_rubyficadas
+	
+Ahora escribre:
+	
+	"Hola Rubyficadas".object_id
+
+Debes ver como resultado algo como:
+
+	=> 2156454360
+	
+Si lo volvemos a correr vamos a ver que el resultado es diferente.
+
+Ahora escribe:
+
+	:hola_rubyficadas.object_id
+	
+
+Debes ver como resultado algo como:
+
+	 => 538408
+	 
+En cambio con un simbolo, si lo volvemos a correr el resultado sera el mismo. Esto quiere decir que cada vez que creamos un String estamos ocupando un nuevo espacio en memoria pero cada vez que creamos un Symbol se esta usando el mismo espacio en memoria.	 
+
+
 
 Constantes
 ---
