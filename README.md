@@ -8,3 +8,5 @@ El grupo esta estructurado por medio de sesiones, donde en cada se sesión se pl
 [Sesión 1: Conociendo a Ruby](/session_1.md)
 
 [Sesión 2: Los ingredientes para programar](/session_2.md)
+
+[Sesión 3: Los instrumentos para programar](/session_3.md)
