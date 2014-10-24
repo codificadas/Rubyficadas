@@ -1,7 +1,26 @@
 Los instrumentos para programar
 ===
 
-El summary esta work in progress ... ;)
+En esta sesión platicamos sobre las herramientas para usar los elementos platicados en la sesión anterior.
+
+Metodos
+--
+**Métodos conocidos**
+
+**La historia detrás del metodo**
+
+**Como se define un metodo**
+
+
+Flujos de control
+--
+**Métodos de comparación**
+
+**Branching**
+
+**Looping**
+
+**Un poco de logica**
 
 Ejercicios
 ---
@@ -16,4 +35,4 @@ Escribe un programa simulando a tu abuela que casi no oye. Donde lo que sea que 
 
 ** Avanzando...  **
 
-Extiende tu programa de la abuela, ahora cada que le digas 'ADIOS' ella hara como la que no te escucha y seguira hablando y hasta que no le digas 3 veces 'ADIOS' en una sola linea, entendera.
+Extiende tu programa de la abuela, ahora cada que le digas 'ADIOS' ella hará como la que no te escucha y seguirá hablando y hasta que no le digas 3 veces 'ADIOS' en una sola linea, entenderá.
