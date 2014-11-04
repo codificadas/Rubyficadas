@@ -1,4 +1,4 @@
-Los instrumentos para programar
+Los instrumentos para programar I
 ===
 
 En esta sesión platicamos sobre las herramientas que nos servirán para mezclar los ingredientes.
