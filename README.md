@@ -12,3 +12,5 @@ El grupo esta estructurado por medio de sesiones, donde en cada se sesión se pl
 [Sesión 3: Los instrumentos para programar I](/session_3.md)
 
 [Sesión 4: Los instrumentos para programar II](/session_4.md)
+
+[Sesión 5: Los instrumentos para programar III](/session_5.md)
