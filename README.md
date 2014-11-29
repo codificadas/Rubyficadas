@@ -14,3 +14,6 @@ El grupo esta estructurado por medio de sesiones, donde en cada se sesión se pl
 [Sesión 4: Los instrumentos para programar I.I](/session_4.md)
 
 [Sesión 5: Los instrumentos para programar II](/session_5.md)
+
+[Sesión 6: Objetos de la vida real en código](/session_6.md)
+
