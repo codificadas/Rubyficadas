@@ -1,4 +1,4 @@
-Los instrumentos para programar II
+Los instrumentos para programar I.I
 ===
 
 Esta sesión estará dedicada a practicar lo visto en el capitulo I de los instrumentos para programar.
