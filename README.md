@@ -17,3 +17,5 @@ El grupo esta estructurado por medio de sesiones, donde en cada se sesión se pl
 
 [Sesión 6: Objetos de la vida real en código](/session_6.md)
 
+[Sesión 7: La última y nos vamos!](/session_7.md)
+
